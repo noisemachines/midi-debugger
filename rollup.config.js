@@ -4,7 +4,7 @@ import buble       from 'rollup-plugin-buble'
 
 module.exports = {
   entry   : 'src/index.js',
-  dest    : 'demo/app.js',
+  dest    : 'docs/app.js',
   format  : 'iife',
   plugins : [
     nodeResolve({ jsnext: true, main: true, browser: true }),
